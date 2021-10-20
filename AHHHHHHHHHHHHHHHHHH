@@ -4,20 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <p>
+    <div>
+      <lable for="file"> this is you trying to prosses what you're looking at:</lable>
+      <progress id="file" value"32" max="100"> 32% </progress>
+    <p> <span style="color:brown">
       
-  AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH that was very epiccccccc but i can do a better one........ AHHHHHHHHHHHHHHhhhhhhkAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHH<h1> I like to eat sand
-    </h1>HHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHhHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh..Woah that was even more epiccccccccccccccccccccccccccc. I know right *Takes bite of sand* MMMMMMMM YUMMY FOR MY TUMMY 
+  AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH that was very epiccccccc but i can do a better one........ AHHHHHHHHHHHHHHhhhhhhkAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh. <br>AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHH<br>HHHHHHHHHHHHHHHHHH<br>HHHHhhhhHH<br>HHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHH</br>HHHHHHHHHHHHHhhhhHHHHHH<br>HhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHH</br>HHHHHHH</br>HHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHH</br>HhHHHHHhHHHHHhhh.AHHHHHHHHHHHH</p> <h1> I like to eat sand
+    </h1> <p> <span id="header"> HHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHH<br>HHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHhHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.</br>AHHHHHHHHHHHHHHHHHH<br>HHHHHHHHHHHHHHHHHhhhhHH<br>HHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHH</br>HHHHHHHHHHHHHHHHHHHHHHHHHHHHHhh</br>hhHHHHHHHhhh<br>hhhHHhhHHHhHHHHHhHHHHHhhh.AHHHHHHHHHHHHHHHHHHHHHHHHHH</br>HHHHHHHHHhhhhHHHHHHHhhhhhhHHhhHHHhHHH</br>HHhHHHHHhhh..Woah that was even more epiccccccccccccccccccccccccccc. I know right *Takes bite of sand* MMMMMMMM YUMMY FOR MY TUMMY.......... NOW FOR AN AMAZING PICTURE OF A MAN DOWNING SAND........... </span></p>
     <img src = "https://steamuserimages-a.akamaihd.net/ugc/1708535012178663406/9A0429E76DDA70C3BC0AFD3051E9C396340CAF9B/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <br>
+    <hr>
     <a href="https://steamuserimages-a.akamaihd.net/ugc/1708535012178663406/9A0429E76DDA70C3BC0AFD3051E9C396340CAF9B/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">Learn how to digest sand</a>
-  <ul> <li>Sticky sand</li> <li>crunchy sand</li> <li> Dry sand </li> <li> wet sand </li> 
+    <h3> See him down sand in REAL LIFE </h3>
+    <iframe width="450" height="350" src="https://www.youtube.com/embed/O60ACtH3LfM"> 
+</iframe>
+<aside> This man was LEGALLY eating sand for his own enjoyment </aside>
+    <h2 id = "header"> Try this at home kids! </h2>
+    <h2> Here are some diffrent kinds of sand! </h2>
+        <ul> <li>Sticky sand</li> <li>Crunchy sand</li> <li> Dry sand </li> <li> Wet sand </li> 
+  </div>
   
   </head>
   
   
   <body>
-    CANDIC
+
+    
+      (no sand was harmed while makeing this educational sight)
     <script src="script.js"></script>
   </body>
 </html>
